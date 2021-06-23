@@ -19,7 +19,8 @@ namespace View
     public delegate void SearchDelegate(TransportModel transportModel);
 
     /// <summary>
-    /// Класс описывающий действия с транспортными средствами.
+    /// Класс описывающий действия с транспортными средствами
+    /// (загрузку, сохранение, добавление, удаление, поиск).
     /// </summary>
     public partial class MainForm : Form
     {
